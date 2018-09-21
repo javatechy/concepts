@@ -2,12 +2,14 @@
 
 ### Topics Covered
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [ ] Oops
+- [ ] Multithreading
+- [ ] Strings
+- [x] Lambdas
+- [ ] Inheritance
+- [ ] Bitwise operations
+- [x] Custom Annotations
+- [ ] Enums
+- [x] Functional Interface
+- [x] Lambdas
+- [ ] Serialization

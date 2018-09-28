@@ -20,7 +20,18 @@ Uses :
 
 Create a new thread:
 
+Methods: 
 
+join() : Thread is dead after join() check using isAlive()
+getName() :  get the name of thread
+setName() :  set the name of thread
+setPriority() : Thread.MIN_PRIORITY for min priority
+
+Synchronized :
+
+Check SynchronisedDemo.java  for refernece.  t1 and t2 are accesing the same resource and but count is never 2000 after looping 2000 times.  becazuse counter is being changed after retriving the values.
+
+Solution : Just make the increment() Synchronized. 
 
 
 ## Refernce:

@@ -8,8 +8,6 @@ Proposition 1.0.1. 2 + 3 = 5. # true
 Proposition 1.0.2. 1 + 1 = 3  # false
 
 
-![image](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap01.pdf)
-
 
 Compound Propositions: 
 
@@ -35,9 +33,23 @@ F F 		T
 Symbols:
 
 
-![alt dokr_aws_ip](https://raw.githubusercontent.com/javatechy/conecpts/master/screenshots/notations.png)
+![alt dokr_aws_ip](https://raw.githubusercontent.com/javatechy/concepts/master/screenshots/notations.png)
 
 
+Prime Numbers: 
+A prime is an integer
+greater than 1 that is divisible only by itself and 1. For example, 2, 3, 5, 7, and 11
+
+
+Predicates :
+A predicate is a proposition whose truth depends on the value of one or more variables.
+Most of the propositions above were defined in terms of predicates. For
+example
+" n is a perfect square”
+
+Quantifiers: alwasy true
+There are a couple of assertions commonly made about a predicate: that it is sometimes
+true and that it is **always true**. 
 
 Refernce:
 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap01.pdf

@@ -17,5 +17,4 @@ class ChopStick {
 		lock = new ReentrantLock();
 	}
 
-	public void pickup
 }

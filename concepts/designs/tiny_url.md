@@ -1,4 +1,4 @@
-# Design A parking lot
+# Tiny URL
 
 Things To Remember:
 + Handle ambiguity : Understand the breadth of the problem and Ask Does the interviewer need  : design/class diagram/ solution

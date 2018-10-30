@@ -17,6 +17,7 @@ Collection : Root interface with basic methods like add(), remove(),
 
 + **Queue :** Typically order elements in FIFO order except exceptions
         like PriorityQueue.  
+        ** Priority queue always outputs the minimum element from the queue when remove() method is called, no matter what the sequence of input is.
 
 + **Deque :** Elements can be inserted and removed at both ends. Allows
         both LIFO and FIFO. 

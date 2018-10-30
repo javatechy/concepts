@@ -1,4 +1,4 @@
-# Annotions
+# Singleton Design Patter
 
 In general we follow below steps to create a singleton class:
 

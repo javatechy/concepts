@@ -10,6 +10,17 @@
 Doen't Work: Trie : is small system 
 
 
+### 3 parts:
+
+Request/Read API:
+
+Data Collecton (Cassendra/NoSQL):
+Appliers: Updates data to all nodes after asking zookeeper.
+later remove from cassendra
+
+
+
+
 
 
 Ref:

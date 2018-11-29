@@ -28,7 +28,7 @@ public class SynchroisedDemo {
 		
 		//t1.join(); // This will wait for t to finish
 		//t2.join();
-		//Thread.sleep(10000);
+		Thread.sleep(10000);
 		System.out.println(counter.count);
 	}
 

@@ -24,17 +24,9 @@ Doen't Work: Trie : is small system
 later remove from cassendra
 
 
-Ref:
-
-
-
-
-
 
 
 Ref:
 
-https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md
-https://www.youtube.com/watch?v=fMZMm_0ZhK4&t=237s
-	 
+https://www.youtube.com/watch?v=us0qySiUsGU	 
  

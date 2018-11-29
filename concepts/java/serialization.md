@@ -5,7 +5,6 @@ Serialization is a mechanism of converting the state of an object into a byte st
 Deserialization is the reverse process where the byte stream is used to recreate the actual Java object in memory. This mechanism is used to persist the object.
 
 
-
 1. If a parent class has implemented Serializable interface then child class doesn’t need to implement it but vice-versa is not true.
 
 Only non-static data members are saved via Serialization process.

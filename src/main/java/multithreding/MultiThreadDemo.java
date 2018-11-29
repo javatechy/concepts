@@ -1,17 +1,11 @@
 package multithreding;
 
-import java.util.concurrent.locks.Lock;
-
 class Hi implements Runnable {
-	private Lock lock;
-
 	public void run() {
-		lock.lock();
 		for (int i = 0; i < 5; i++) {
 			System.out.println("hi");
 			MultiThreadDemo.sleep(100);
 		}
-		lock.unlock();
 	}
 }
 
@@ -31,7 +25,10 @@ public class MultiThreadDemo {
 		Runnable hi = new Hi();
 		Thread t = new Thread(hi);
 		Hello hello = new Hello();
+
+		
 		t.start();
+
 		// This sleep will add a delay of 10 ms at the starting, hence will be printed
 		// one by one.
 		sleep(10);
@@ -40,8 +37,9 @@ public class MultiThreadDemo {
 		t.join();
 		hello.join();
 		System.out.println("hi is alive : " + t.isAlive()); // t is not alive after join()
-		System.out.println("BYe"); // it will be printed randomly in the midle of Hi and Hello . If you are not
-									// using join()
+		System.out.println("BYe"); // it will be printed randomly in the midle of Hi and Hello . If you are not using join()
+		
+		
 	}
 
 	public static void sleep(int a) {
